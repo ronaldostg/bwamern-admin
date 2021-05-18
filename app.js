@@ -16,7 +16,8 @@ const apiRouter = require('./routes/api');
 
 // import mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/db_bwamern', {
+// mongoose.connect('mongodb+srv://bwamern:ronaldo12109@cluster0.z7lb4.mongodb.net/db_bwamern?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://bwamern:ronaldo12109@cluster0.z7lb4.mongodb.net/db_bwamern?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology:true,
   useCreateIndex:true,
