@@ -152,7 +152,23 @@ module.exports = {
             bankFrom === undefined)
             
             {
-                res.status(404).json({message:"Lengkapi semua field"});
+                res.status(404).json(
+                    {
+                        message:"Lengkapi semua field",
+                        testimonial,
+                        bank, 
+                        testimonial
+                    });
+
+
+                // res.status(200).json({
+                //     ...item._doc,
+                //     bank, 
+                //     testimonial
+    
+                // });
+
+
             }
 
 
